@@ -9,25 +9,6 @@ import { AppComponent } from './app.component';
 import { PaginatedTableComponent } from './paginated-table/paginated-table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// @NgModule({
-//   declarations: [
-//     AppComponent,
-//     PaginatedTableComponent
-//   ],
-//   imports: [
-//     BrowserModule,
-//     HttpClientModule,
-//     FormsModule,
-//     MatTableModule,
-//     MatPaginatorModule,
-//     MatSelectModule,
-//     BrowserAnimationsModule
-//   ],
-//   providers: [],
-//   bootstrap: [AppComponent]
-// })
-// export class AppModule { }
-
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
